@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-background{
+  display: flex;
+  flex-direction:column;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #1CDBF5;
+  color:white;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.heading-text{
+ 
+  color: #1CDBF5;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+  background-color: #131A28;
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+.Task-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 130vh; 
+  height: 100%;
+  text-align: center;
+  background-color: #131A28;
+  color:white;
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px;
+  margin: 0 auto 20px;
+  min-height: 205px;
+
+}
+.text-input{
+ 
+  border: #1CDBF5 2px solid;
+  outline: none;
+  border-radius: 8px;
+  width: 310px;
+  font-size: 18px;
+  padding: 10ps 15px;
+  margin: 0 15px 15px 15px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+
+  
+}
+.add-button{
+ 
+
+  background-color: #1CDBF5;
+  outline: none;
+  border: none;
+  color: #131A28;
+  font-size: 17px;
+  font-weight: bolder;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 15px 15px 15px;
+  cursor: pointer;
+
+}
+.no-item-text{
+  color: #1CDBF5;
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+}
+.row{
+  display: flex;
+  flex-direction: columns;
+}
